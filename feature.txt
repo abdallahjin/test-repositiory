@@ -3,7 +3,7 @@
 <title>test html</title>
 </head>
 <body background-color:rgb(220,200,190)>
-<p>
+<p color:rgb(172,173,174)>
 this is  a test site. it does absolutely nothing.
 </p>
 </body>

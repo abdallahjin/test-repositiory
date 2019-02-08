@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box; 
+}
+.header
+{
+  background-color:#333;
+  background-size:auto;
+  height:100px;
+  padding:20px;
+  background-image: url("https://newsroom.safaricom.co.ke/wp-content/themes/news_revamp/images/twaweza-logo.png");
+  background-repeat:no-repeat;
+  background-size:175px 100px;
+}
+body{
+  font: montserrat;
+  font-size:15px;
+  color:white;
+    background-color:#333;
+  }
+
+ .menu ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  float:right;
+    
+} 
+.menu  li
+{
+  display:inline;
+  
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display:inline;
+}
+.center
+{
+  overflow:auto;
+  margin-left:20px;
+  margin-right:20px;
+}
+.left
+{
+  display:flex;
+
+  flex-direction:column;
+  position:dynamic;
+}
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+.menu_column ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+  background-color: #333;
+  float:left;}
+  
+.menu_column  li
+{display:block;
+  display:flex;
+  flex-direction:column
+}
+
+.menu_column li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 15px 5px;
+  text-decoration: none;
+  display:block;
+  
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+#csrimage ul 
+{
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  float:center;
+  display:inline;
+  display:flex;
+  flex-direction:row;
+  
+}
+img {
+  height:200px;
+  width:200px;
+  display:inline;
+  
+}
+
+.footer {
+  background-color: #777;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  
+
+
+}
+
+/*@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+*/
